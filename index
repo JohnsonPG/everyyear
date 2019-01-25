@@ -1,0 +1,160 @@
+.grid{
+    height: 480px;
+}
+.grid-col1{
+    width: 190px;
+    height: 100%;
+    background-color: white;  
+    border-top: 1px solid #ededed;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 300;
+}
+.grid-col1 a{
+    /* color: #707070; */
+    font-size: 14px;
+    margin: 0 3px;
+}
+.grid-col1 ul{
+    padding: 10px 0;
+}
+.grid-col1 ul li {
+    padding: 5px 0 5px 20px;
+}
+.grid-col2{
+    width: 590px;
+    height: 100%;
+    /* background-color: purple;   */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid-col2-t {
+    position:relative;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top:50%;
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3);
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+}
+.arrow-r{
+    right: 0;
+}
+.circle {
+    width: 175px;
+    height: 20px;
+    background:rgba(255,255,255,.6);
+}
+.grid-col2 img{
+    margin-top: 10px;
+}
+.grid-col3{
+    width: 190px;
+    height: 100%;
+    /* background-color: skyblue;   */
+}
+.grid-col3 img{
+    margin-top: 9px;
+}
+.grid-col4{
+    width: 190px;
+    height: 100%;
+    margin-top: 10px;
+
+}
+.circle{
+    width: 167px;
+    height: 20px;
+    background: rgba(255,255,255,.0);
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+    transform: translateX(-10%);
+        border-radius: 10px;
+        padding-left: 8px;
+}
+.circle li {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 4px;
+}
+.grid .current {
+    background-color: red;
+}
+/* 右边模块 */
+.login{
+    height: 120px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+.login .user_show{
+
+    margin-top: 30px;
+    padding:0 10px
+}
+.user_show p{
+    overflow: hidden;
+    line-height: 20px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #888;
+    
+}
+.user-info{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    left:68px;
+    background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
+}
+.user-info img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.login-b{
+    margin: 10px 0;
+}
+.login-b a {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #f10215;
+    border-radius: 13px;
+    margin-right: 3px;
+    text-align: center;
+    color: #f10215;
+}
+.login-b a:hover {
+    background-color: #f10215;
+    color: #fff;
+
+}
+
+
+.new{
+    height: 154px;
+    border-bottom: 1px solid #ccc;
+}
+.expand{
+    height: 209px;
+}
+
